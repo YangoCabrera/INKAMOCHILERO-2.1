@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <body>
+    
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <div class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <a href="index.html" class="logo">INKAMOCHILERO</a>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="nacional.html" class="nav-link ">Nacional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="reservaciones.html" class="nav-link ">Reservaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Internacional.html" class="nav-link ">internacional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="vuelos.html" class="nav-link ">vuelos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contacto.html" class="nav-link ">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <section class="hero" id="hero">
+            <div class="container">
+                <h2 class="h2-sub">
+                    <span class="fil">B</span>ienvenido
+                </h2>
+                <h1 class="head">El Inka Mochilero</h1>
+                <div class="he-des">
+                    <h5>Vive Cada Segundo de Tu Vida</h5>
+                    <a href="reservaciones.html" class="btn cta-btn">Explora</a>
+                </div>
+            </div>
+        </section>
+    
+            
+<body>
+    <div class="contenedor">
+        <form action="" class="form"> 
+            <div class="form-header">
+                <h1 class="form-title">C<span>ontacto</span></h1>
+            </div>
+
+            <label for="nombres y Apellido" class="form-label"></label>Nombres y Apellido</label>
+            <input type="text" id="nombre y Apellido" class="form-input" placeholder="Yango Cabrera">
+
+            <label for="Correo Electronico" class="form-label"></label>Correo Electronico</label>
+            <input type="text" id="Correo Electronico" class="form-input" placeholder="@gmail.com">
+
+            <label for="Teléfono" class="form-label"></label>Teléfono</label>
+            <input type="text" id="Teléfono" class="form-input" placeholder="+51">
+
+            <label for="mensaje" class="form-label"></label>Mensaje</label>
+            <textarea id="Mensaje" class="form-input" placeholder="Escriba su mensaje"></textarea>
+            </textarea>
+                
+             <input type="Submit" class="btm-submit" value="Enviar Consulta">
+        </form>
+    </div>
+</body>
+
+    
+    
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+    
+                    <div class="footer-content-about">
+                        <h4>Nosotros</h4>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <p> EL INKA MOCHILERO  es una Agencia de Viajes en Perú que vive la vida del viajero. América Latina y el Perú están a tu alcance. Nuestros viajes son las verdaderas aventuras que van más allá de destinos increíbles o paquetes de viajes con todo incluido. Recorre el Perú de la mano de los profesionales en turismo, el amor por lo que hacemos convierten sus viajes en grandes experiencias en cada uno de los destinos que operamos.</p>
+                    </div>
+                    
+                        <div>
+                            <h4>Noticias</h4>
+                            <form action="" class="news-form">
+                                <input type="text" class="news-input"
+                                placeholder="Escribe tu email"
+                                >
+                                <button class="news-btn" type="submit">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </footer>
+    
+        <script>
+    
+            const selectElement = function(element) {
+                return document.querySelector(element);
+            }
+    
+    
+            let menuToggle = selectElement('.menu-toggle');
+            let body = selectElement('body');
+    
+            menuToggle.addEventListener('click', function(){
+                body.classList.toggle('open');
+            })
+    
+        </script>
+    
+        
+    </body>
+</html>
